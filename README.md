@@ -29,3 +29,20 @@ Note:
 3. Based on the output value derived from the eq. (2) the speed of the motor will decide.
 
 4. By using the above information the students has to write the code by self and observe the robot movement for Proportional controller (P), Proportional plus integral controller (P+I) and Proportional + Integral + Derivative controller (PID) separately with different controller gains combinations.
+
+Hardware setup :
+
+Steps for adding motor zip file to the Arduino UNO IDE:
+1. Download the motor zip file.
+2. Open Arduino UNO IDE in computer then go to Sketch->Include library->add zip libraryadd motor zip.
+3. Connect the robot with Arduino UNO Board to the Computer by using USB based Communication probe.
+4. Connect the US-sensor to the Arduino UNO Board and configure the trigger and echo pins to Digital pins 6 and 7.
+
+Experimental Procedure:
+I. Open the Arduino UNO IDE in the Computer then select the Arduino UNO Board type and select the communication PORT from tools.
+II. Click on File and take New Sketch
+III. Write, Load and Compile the program.
+IV. Remove the Communication probe from the computer and connect it to the battery provided on the robot.
+V. Keep the robot on the plain surface and observe the movement of the robot
+VI. Observe the robot movement for Proportional controller (P), Proportional plus integral controller (P+I) and Proportional + Integral + Derivative controller (PID) separately with different Kp, Ki and Kd values.
+VII. Note down the steady state error and over shoot if any presents for different controller values as given in the below table.
