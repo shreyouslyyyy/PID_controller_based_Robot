@@ -40,9 +40,15 @@ Steps for adding motor zip file to the Arduino UNO IDE:
 
 Experimental Procedure:
 I. Open the Arduino UNO IDE in the Computer then select the Arduino UNO Board type and select the communication PORT from tools.
+
 II. Click on File and take New Sketch
+
 III. Write, Load and Compile the program.
+
 IV. Remove the Communication probe from the computer and connect it to the battery provided on the robot.
+
 V. Keep the robot on the plain surface and observe the movement of the robot
+
 VI. Observe the robot movement for Proportional controller (P), Proportional plus integral controller (P+I) and Proportional + Integral + Derivative controller (PID) separately with different Kp, Ki and Kd values.
+
 VII. Note down the steady state error and over shoot if any presents for different controller values as given in the below table.
