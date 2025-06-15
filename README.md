@@ -15,8 +15,11 @@ A simple motor operated Robot is a robot whose movement can be controlled to rea
 Error (in “cm”) = Measured Distance (in “cm”) – set point (in “cm”)  .........(1)
 
 Output (or desired speed) = K p *Error + K i * integral + K d *Derivative  .......(2)
+
 Integral= Previous Error + Current Error  .......(3)
+
 Derivative= Previous Error - Current Error  ........(4)
+
 
 Note:
 1. Configure the US-Sensor to measure the actual distance of the robot to obstacle which is placed at greater distance compared to target or set-point distance.
