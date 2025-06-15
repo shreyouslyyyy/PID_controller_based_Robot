@@ -13,6 +13,7 @@ Theory:
 A simple motor operated Robot is a robot whose movement can be controlled to reach a predetermined set-point (or target distance) using PID-controller. The actual distance from the robot to target point is measured by using US-Sensor. The co-ordination between the sensor and robot movement is controlled by coding with ARDUINO-UNO board. The robot can move forward and backward depends on the error between the target point and the measured distance. Finally it settles down around the target point. Based on the calculated error the speed and direction of the robot will be decide. Oscillations and steady state error around the target point of the robot movement can be controlled by varying the gains of the PID-controller.
 
 Error (in “cm”) = Measured Distance (in “cm”) – set point (in “cm”)  .........(1)
+
 Output (or desired speed) = K p *Error + K i * integral + K d *Derivative  .......(2)
 Integral= Previous Error + Current Error  .......(3)
 Derivative= Previous Error - Current Error  ........(4)
