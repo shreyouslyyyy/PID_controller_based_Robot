@@ -39,6 +39,7 @@ Steps for adding motor zip file to the Arduino UNO IDE:
 4. Connect the US-sensor to the Arduino UNO Board and configure the trigger and echo pins to Digital pins 6 and 7.
 
 Experimental Procedure:
+
 I. Open the Arduino UNO IDE in the Computer then select the Arduino UNO Board type and select the communication PORT from tools.
 
 II. Click on File and take New Sketch
