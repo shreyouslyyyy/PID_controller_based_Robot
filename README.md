@@ -53,3 +53,5 @@ V. Keep the robot on the plain surface and observe the movement of the robot
 VI. Observe the robot movement for Proportional controller (P), Proportional plus integral controller (P+I) and Proportional + Integral + Derivative controller (PID) separately with different Kp, Ki and Kd values.
 
 https://github.com/user-attachments/assets/d6207a20-850c-469f-8b24-83649e18b751
+
+https://github.com/user-attachments/assets/91b9b656-552a-40f1-b0bd-52ab7220648a
