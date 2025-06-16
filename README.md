@@ -37,11 +37,7 @@ Note:
 
 # <h2>🛠️Hardware setup</h2>
 
-Steps for adding motor zip file to the Arduino UNO IDE:
-1. Download the motor zip file.
-2. Open Arduino UNO IDE in computer then go to Sketch->Include library->add zip libraryadd motor zip.
-3. Connect the robot with Arduino UNO Board to the Computer by using USB based Communication probe.
-4. Connect the US-sensor to the Arduino UNO Board and configure the trigger and echo pins to Digital pins 9 and 10.
+Connect the US-sensor to the Arduino UNO Board and configure the trigger and echo pins to Digital pins 9 and 10.
 
 # <h2>💻Experimental Procedure</h2>
 
