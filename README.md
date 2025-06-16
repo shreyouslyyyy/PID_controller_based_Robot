@@ -1,6 +1,5 @@
 # <h1>🤖PID controller based Robot</h1>
 
-# <h2>📌Aim</h2>
 This project aims to Robot movement control to reach the target point using PID controller with the help of US-Senor distance measurement.
 
 # <h2>⚙️List of Kit & tools Requirement</h2>
