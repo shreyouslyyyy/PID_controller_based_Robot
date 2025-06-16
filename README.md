@@ -53,6 +53,16 @@ V. Keep the robot on the plain surface and observe the movement of the robot
 
 VI. Observe the robot movement for Proportional controller (P), Proportional plus integral controller (P+I) and Proportional + Integral + Derivative controller (PID) separately with different Kp, Ki and Kd values.
 
-https://github.com/user-attachments/assets/d6207a20-850c-469f-8b24-83649e18b751
+
+
+
+
+<h6>⁕In this video, we can see that the robot moves forward if the distance is  >20 cm it moves forward, and moves backward if distance is <20cm and stops at an exact distance of 20cm from the target.</h6>
 
 https://github.com/user-attachments/assets/91b9b656-552a-40f1-b0bd-52ab7220648a
+
+<h6>⁕In this video, my hand is the target obstacle, where the robot tries to maintain a constant distanc of 20cm.</h6>
+
+https://github.com/user-attachments/assets/d6207a20-850c-469f-8b24-83649e18b751
+
+
