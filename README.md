@@ -52,4 +52,4 @@ V. Keep the robot on the plain surface and observe the movement of the robot
 
 VI. Observe the robot movement for Proportional controller (P), Proportional plus integral controller (P+I) and Proportional + Integral + Derivative controller (PID) separately with different Kp, Ki and Kd values.
 
-VII. Note down the steady state error and over shoot if any presents for different controller values as given in the below table.
+https://github.com/user-attachments/assets/d6207a20-850c-469f-8b24-83649e18b751
