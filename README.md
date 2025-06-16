@@ -1,16 +1,16 @@
 # PID_controller_based_Robot
 
-# Aim
-The Robot movement control to reach the target point using PID controller with the help of US-Senor distance measurement.
+# 📌Aim
+This project aims to Robot movement control to reach the target point using PID controller with the help of US-Senor distance measurement.
 
-⚙️List of Kit & tools Requirement :
+# ⚙️List of Kit & tools Requirement :
 1. Arduino and IDE
 2. Robotics platform
 3. Motor driver module
 4. US-Sensor
 5. Battery
 
-Theory:
+# 📒Theory:
 A simple motor operated Robot is a robot whose movement can be controlled to reach a predetermined set-point (or target distance) using PID-controller. The actual distance from the robot to target point is measured by using US-Sensor. The co-ordination between the sensor and robot movement is controlled by coding with ARDUINO-UNO board. The robot can move forward and backward depends on the error between the target point and the measured distance. Finally it settles down around the target point. Based on the calculated error the speed and direction of the robot will be decide. Oscillations and steady state error around the target point of the robot movement can be controlled by varying the gains of the PID-controller.
 
 Error (in “cm”) = Measured Distance (in “cm”) – set point (in “cm”)  .........(1)
@@ -31,7 +31,7 @@ Note:
 
 4. By using the above information the students has to write the code by self and observe the robot movement for Proportional controller (P), Proportional plus integral controller (P+I) and Proportional + Integral + Derivative controller (PID) separately with different controller gains combinations.
 
-Hardware setup :
+# 🛠️Hardware setup :
 
 Steps for adding motor zip file to the Arduino UNO IDE:
 1. Download the motor zip file.
@@ -39,7 +39,7 @@ Steps for adding motor zip file to the Arduino UNO IDE:
 3. Connect the robot with Arduino UNO Board to the Computer by using USB based Communication probe.
 4. Connect the US-sensor to the Arduino UNO Board and configure the trigger and echo pins to Digital pins 9 and 10.
 
-Experimental Procedure:
+# 💻Experimental Procedure:
 
 I. Open the Arduino UNO IDE in the Computer then select the Arduino UNO Board type and select the communication PORT from tools.
 
