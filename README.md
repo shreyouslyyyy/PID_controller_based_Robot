@@ -14,11 +14,16 @@ A simple motor operated Robot is a robot whose movement can be controlled to rea
 
 Error (in “cm”) = Measured Distance (in “cm”) – set point (in “cm”)  .........(1)
 
-Output (or desired speed) = K p *Error + K i * integral + K d *Derivative  .......(2)
+Output (or desired speed) = Kp *Error + Ki * integral + Kd *Derivative  .......(2)
 
 Integral= Previous Error + Current Error  .......(3)
 
 Derivative= Previous Error - Current Error  ........(4)
+
+
+![Image](https://github.com/user-attachments/assets/13eddf0c-d276-4a51-a248-c190b29c958e)
+
+![Image](https://github.com/user-attachments/assets/d016380f-6484-404a-bba2-ca5cfd94fe67)
 
 
 Note:
